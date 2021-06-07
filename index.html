@@ -44,22 +44,22 @@
             <td><button onclick="setOutput('-')">-</button></td>
         </tr>
         <tr>
-            <td><button>1</button></td>
-            <td><button>2</button></td>
-            <td><button>3</button></td>
-            <td><button>*</button></td>
+            <td><button onclick="setOutput(1)">1</button></td>
+            <td><button onclick="setOutput(2)">2</button></td>
+            <td><button onclick="setOutput(3)">3</button></td>
+            <td><button onclick="setOutput('*')">*</button></td>
         </tr>
         <tr>
-            <td><button>.</button></td>
-            <td><button>0</button></td>
+            <td><button onclick="setOutput('.')">.</button></td>
+            <td><button onclick="setOutput(0)">0</button></td>
             <td><button onclick="cal()">=</button></td>
-            <td><button>/</button></td>
+            <td><button onclick="setOutput('/')">/</button></td>
         </tr>
         <tr>
-            <td><button>C</button></td>
-            <td><button><=</button></td>
-            <td><button>(</button></td>
-            <td><button>)</button></td>
+            <td><button onclick ="clear1()">C</button></td>
+            <td><button onclick="xoa()"><=</button></td>
+            <td><button onclick="setOutput('(')">(</button></td>
+            <td><button onclick="setOutput(')')">)</button></td>
 
         </tr>
     </table>
